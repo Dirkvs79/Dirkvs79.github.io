@@ -1,8 +1,39 @@
 baseURL = 'https://dirkvs79.github.io/'
-locale = 'en-gb'
+languageCode = 'en-gb'
 title = 'DuxDaily'
 theme = 'PaperMod'
 
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[params]
+  defaultTheme = 'auto'
+
+  [params.profileMode]
+    enabled = true
+    title = 'Dux'
+    subtitle = 'Computer engineer, tinkerer, writer. Welcome to DuxDaily.'
+    imageUrl = 'images/dux.jpg'
+    imageTitle = 'Dux'
+    imageWidth = 150
+    imageHeight = 150
+
+    [[params.profileMode.buttons]]
+      name = 'Posts'
+      url = 'posts'
+
+    [[params.profileMode.buttons]]
+      name = 'About'
+      url = 'about'
+
+[menu]
+  [[menu.main]]
+    name = 'Posts'
+    pageRef = '/posts'
+    weight = 10
+
+  [[menu.main]]
+    name = 'About'
+    pageRef = '/about'
+    weight = 20
