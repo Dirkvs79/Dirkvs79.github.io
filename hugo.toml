@@ -2,3 +2,7 @@ baseURL = 'https://dirkvs79.github.io/'
 locale = 'en-gb'
 title = 'DuxDaily'
 theme = 'PaperMod'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
