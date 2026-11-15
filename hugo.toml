@@ -23,9 +23,6 @@ theme = 'PaperMod'
       name = 'Posts'
       url = 'posts'
 
-    [[params.profileMode.buttons]]
-      name = 'About'
-      url = 'about'
 
 [menu]
   [[menu.main]]
